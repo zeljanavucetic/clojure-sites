@@ -14,4 +14,4 @@
                  ;[com.github.kyleburton/clj-xpath "1.4.3"]
                  ;[adamwynne/feedparser-clj "0.5.2"]
                  [clj-http "2.3.0"]]
-  :main data/mongoDB)
+  :main data.mongoDB)
