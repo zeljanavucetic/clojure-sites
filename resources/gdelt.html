@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Web sites</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+
+
+    <!--<link href="style.css" rel="stylesheet" type="text/css">
+    <link href="general.css" rel="stylesheet" type="text/css">
+    <script src="main.js"></script>-->
+    <style>
+  body {
+      position: relative;
+      overflow-x: hidden;
+  }
+  body,
+  html { height: 100%;}
+  .nav .open > a,
+  .nav .open > a:hover,
+  .nav .open > a:focus {background-color: transparent;}
+
+  /*-------------------------------*/
+  /*           Wrappers            */
+  /*-------------------------------*/
+
+  #wrapper {
+      padding-left: 0;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+  }
+
+  #wrapper.toggled {
+      padding-left: 220px;
+  }
+
+  #sidebar-wrapper {
+      z-index: 1000;
+      left: 220px;
+      width: 0;
+      height: 100%;
+      margin-left: -220px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: #1a1a1a;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+  }
+
+  #sidebar-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+      width: 220px;
+  }
+
+  #page-content-wrapper {
+      width: 100%;
+      padding-top: 70px;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+      position: absolute;
+      margin-right: -220px;
+  }
+
+  /*-------------------------------*/
+  /*     Sidebar nav styles        */
+  /*-------------------------------*/
+
+  .sidebar-nav {
+      position: absolute;
+      top: 0;
+      width: 220px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  .sidebar-nav li {
+      position: relative;
+      line-height: 20px;
+      display: inline-block;
+      width: 100%;
+  }
+
+  .sidebar-nav li:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 100%;
+      width: 3px;
+      background-color: #1c1c1c;
+      -webkit-transition: width .2s ease-in;
+        -moz-transition:  width .2s ease-in;
+         -ms-transition:  width .2s ease-in;
+              transition: width .2s ease-in;
+
+  }
+  .sidebar-nav li:first-child a {
+      color: #fff;
+      background-color: #1a1a1a;
+  }
+  .sidebar-nav li:nth-child(2):before {
+      background-color: #ec1b5a;
+  }
+  .sidebar-nav li:nth-child(3):before {
+      background-color: #79aefe;
+  }
+  .sidebar-nav li:nth-child(4):before {
+      background-color: #314190;
+  }
+  .sidebar-nav li:nth-child(5):before {
+      background-color: #279636;
+  }
+  .sidebar-nav li:nth-child(6):before {
+      background-color: #7d5d81;
+  }
+  .sidebar-nav li:nth-child(7):before {
+      background-color: #ead24c;
+  }
+  .sidebar-nav li:nth-child(8):before {
+      background-color: #2d2366;
+  }
+  .sidebar-nav li:nth-child(9):before {
+      background-color: #35acdf;
+  }
+  .sidebar-nav li:hover:before,
+  .sidebar-nav li.open:hover:before {
+      width: 100%;
+      -webkit-transition: width .2s ease-in;
+        -moz-transition:  width .2s ease-in;
+         -ms-transition:  width .2s ease-in;
+              transition: width .2s ease-in;
+
+  }
+
+  .sidebar-nav li a {
+      display: block;
+      color: #ddd;
+      text-decoration: none;
+      padding: 10px 15px 10px 30px;
+  }
+
+  .sidebar-nav li a:hover,
+  .sidebar-nav li a:active,
+  .sidebar-nav li a:focus,
+  .sidebar-nav li.open a:hover,
+  .sidebar-nav li.open a:active,
+  .sidebar-nav li.open a:focus{
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent;
+  }
+
+  .sidebar-nav > .sidebar-brand {
+      height: 65px;
+      font-size: 20px;
+      line-height: 44px;
+  }
+  .sidebar-nav .dropdown-menu {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+      border: none;
+      background-color: #222;
+      box-shadow: none;
+  }
+
+  /*-------------------------------*/
+  /*       Hamburger-Cross         */
+  /*-------------------------------*/
+
+  .hamburger {
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    background: transparent;
+    border: none;
+  }
+  .hamburger:hover,
+  .hamburger:focus,
+  .hamburger:active {
+    outline: none;
+  }
+  .hamburger.is-closed:before {
+    content: '';
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: all .35s ease-in-out;
+  }
+  .hamburger.is-closed:hover:before {
+    opacity: 1;
+    display: block;
+    -webkit-transform: translate3d(-100px,0,0);
+    -webkit-transition: all .35s ease-in-out;
+  }
+
+  .hamburger.is-closed .hamb-top,
+  .hamburger.is-closed .hamb-middle,
+  .hamburger.is-closed .hamb-bottom,
+  .hamburger.is-open .hamb-top,
+  .hamburger.is-open .hamb-middle,
+  .hamburger.is-open .hamb-bottom {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 100%;
+  }
+  .hamburger.is-closed .hamb-top,
+  .hamburger.is-closed .hamb-middle,
+  .hamburger.is-closed .hamb-bottom {
+    background-color: #1a1a1a;
+  }
+  .hamburger.is-closed .hamb-top {
+    top: 5px;
+    -webkit-transition: all .35s ease-in-out;
+  }
+  .hamburger.is-closed .hamb-middle {
+    top: 50%;
+    margin-top: -2px;
+  }
+  .hamburger.is-closed .hamb-bottom {
+    bottom: 5px;
+    -webkit-transition: all .35s ease-in-out;
+  }
+
+  .hamburger.is-closed:hover .hamb-top {
+    top: 0;
+    -webkit-transition: all .35s ease-in-out;
+  }
+  .hamburger.is-closed:hover .hamb-bottom {
+    bottom: 0;
+    -webkit-transition: all .35s ease-in-out;
+  }
+  .hamburger.is-open .hamb-top,
+  .hamburger.is-open .hamb-middle,
+  .hamburger.is-open .hamb-bottom {
+    background-color: #1a1a1a;
+  }
+  .hamburger.is-open .hamb-top,
+  .hamburger.is-open .hamb-bottom {
+    top: 50%;
+    margin-top: -2px;
+  }
+  .hamburger.is-open .hamb-top {
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+  }
+  .hamburger.is-open .hamb-middle { display: none; }
+  .hamburger.is-open .hamb-bottom {
+    -webkit-transform: rotate(-45deg);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+  }
+  .hamburger.is-open:before {
+    content: '';
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: all .35s ease-in-out;
+  }
+  .hamburger.is-open:hover:before {
+    opacity: 1;
+    display: block;
+    -webkit-transform: translate3d(-100px,0,0);
+    -webkit-transition: all .35s ease-in-out;
+  }
+
+  /*-------------------------------*/
+  /*            Overlay            */
+  /*-------------------------------*/
+
+  .overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(250,250,250,.8);
+      z-index: 1;
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    Otvoreni izvori
+                </a>
+            </li>
+            <li>
+                <a href="/">Pocetna</a>
+            </li>
+            <li style="font-style:italic; font-weight: bold;"><a href="/gdelt">GDELT news</a></li>
+            <li style="font-style:italic; font-weight: bold;"><a href="/rssnone">Rss feed</a></li>
+            <li style="font-style:italic; font-weight: 900;"><a href="/addRss">Create RSS feed url</a></li>
+            <li style="font-style:italic; font-weight: 900;"><a href="/addUrl">Add new web site</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Region<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Region</li>
+                    <li><a href="/Bugarska">Bugarska</a></li>
+                    <li><a href="/Makedonija">Makedonija</a></li>
+                    <li><a href="/Albanija">Albanija</a></li>
+                    <li><a href="/CrnaGora">Crna Gora</a></li>
+                    <li><a href="/BiH">BiH</a></li>
+                    <li><a href="/Madjarska">Madjarska</a></li>
+                    <li><a href="/Rumunija">Rumunija</a></li>
+                    <li><a href="/Hrvatska">Hrvatska</a></li>
+                    <li><a href="/slovenija">Slovenija</a></li>
+
+                </ul>
+            </li>
+            <li><a href="/KiM">KiM</a></li>
+            <li>
+                <a href="/Mirovneoperacije">Mirovne operacije</a>
+            </li>
+            <li>
+                <a href="/Bliskiistok">Bliski istok</a>
+            </li>
+            <li>
+                <a href="/Balkan-Evropa">Balkan-Evropa</a>
+            </li>
+
+            <li>
+                <a href="/Ukrajina">Ukrajina</a>
+            </li>
+
+            <li>
+                <a href="/Ostalo">Ostalo</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+        <div class="container">
+
+
+            <div style="width:1024px;">
+                <style type="text/css">
+iframe {
+  height: 500px;
+  width: 500px;
+  resize: both;
+  overflow: auto;
+}
+</style>
+                <h2>GDELT full text search</h2><br><br>
+
+
+                Kljucna rec:
+                <input class="form-control" style="width:54%" type="text" data-live-search="true" id="filter" name="firstname" ><br>
+
+                Zemlja porekla:
+                <select class="selectpicker show-tick countries" data-live-search="true" title="Choose one of the following" id="countryComboBox">
+                    <option></option>
+                </select>
+
+                Jezik teksta:
+                <select  class="selectpicker show-tick lanNews" data-live-search="true" title="Choose one of the following" id="languageComboBox">
+                    <option></option>
+                </select>
+
+                Jezik za pretragu:
+                <select class="selectpicker show-tick lanSearch" data-live-search="true" title="Choose one of the following" id="languageSearchTextComboBox">
+                    <option></option>
+                </select>
+
+
+                <br><br>
+                <form class="form-inline">
+                    <div style="margin-right:20px" class="form-group" >
+                        Broj vesti:
+
+                        <select class="form-control"id="brojVestiComboBox">
+                            <option value="3">3</option>
+                            <option value="100">100</option>
+                            <option value="200">200</option>
+                            <option value="500">500</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-right:20px" class="form-group">
+                        Last minutes:
+
+                        <select class="form-control" id="lastMinutesComboBox">
+                            <option value="30">30</option>
+                            <option value="100">100</option>
+                            <option value="200">200</option>
+                            <option value="500">500</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-right:20px" class="form-group">
+                        Sortiranje:
+                        <select class="form-control" id="sortiranjeComboBox">
+                            <option value="date">Datum</option>
+                            <option value="rel">Relevantnost</option>
+                            <option value="toneasc">Negativan ton</option>
+                            <option value="tonedesc">Pozitivan ton</option>
+                        </select>
+                    </div>
+
+                </form>
+
+                <div style="float:right">
+                    <button  onclick="refreshIframe();">Pretraga</button>
+                    <label id="filterLabel"></label>
+                </div>
+
+
+
+                <div>
+                    <br><br><br>
+                    <iframe name="imageView" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=artimgonlycollage" height="500" scrolling="yes" width=500 ></iframe>
+
+                    <iframe name="linkView" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=artlist&trans=googtrans" height="500" scrolling="yes" width=500></iframe>
+
+                    <iframe name="wordCloud" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=wordcloud" height="500" scrolling="yes" width=500></iframe>
+
+                    <iframe name="wordCloudTheme" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=wordcloud&outputtype=theme" height="500" scrolling="yes" width=500></iframe>
+
+                    <iframe name="artimgOnlyFrame" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=artimgonlylist" height="500" scrolling="yes" width=500></iframe>
+
+                    <iframe name="timeLineFrame" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=timeline&sort=desc" height="500" scrolling="yes" width=500></iframe>
+
+                    <iframe name="urlListFrame" src="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=putin&output=urllist&sort=desc" height="500" scrolling="yes" width=1000></iframe>
+
+                    <div id="rssBotaSot1">
+
+                        <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Fwww.botasot.info%2Frss%2Faktuale-lajme%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+                    </div>
+
+                    <div id="rssBotaSot2">
+                        <!-- start feedwind code --> <script type="text/javascript"   src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Fwww.botasot.info%2Frss%2Flajme%22%2C%22type%22%3A%22RSS%22%7D%2C%7B%22source%22%3A%22http%3A%2F%2Fwww.botasot.info%2Frss%2Faktuale-lajme%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+                    </div>
+
+
+                </div>
+
+                <script type="text/javascript">
+
+
+function refreshIframe() {
+
+
+    var linkViewFrame = document.getElementsByName('linkView')[0];
+    var imageViewFrame=document.getElementsByName('imageView')[0];
+    var worldCloudFrame=document.getElementsByName('wordCloud')[0];
+    var worldCloudThemeFrame=document.getElementsByName('wordCloudTheme')[0];
+	var timeLineFrame=document.getElementsByName('timeLineFrame')[0];
+	var artimgOnlyFrame=document.getElementsByName('artimgOnlyFrame')[0];
+	var urlListFrame=document.getElementsByName('urlListFrame')[0];
+
+    var filterWord=$("#filter").val();
+
+    var languageSource=$("#languageComboBox").val();
+
+
+	var countrySource=$("#countryComboBox").val();
+
+	var brojVestiSource=$("#brojVestiComboBox").val();
+
+	var lastMinutesSource=$("#lastMinutesComboBox").val();
+
+	var sortSource=$("#sortiranjeComboBox").val();
+
+	var languageSearchSource=$("#languageSearchTextComboBox").val();
+
+    var urlFirstPart="http://api.gdeltproject.org/api/v1/search_ftxtsearch/search_ftxtsearch?query=";
+
+
+    if (countrySource == '' & languageSearchSource == '' & languageSource == ''){
+
+    linkViewFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artlist&trans=googtrans" + "&maxrows=" + brojVestiSource;
+
+     imageViewFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artimgonlycollage" + "&maxrows=" + brojVestiSource;
+
+     worldCloudFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource  +
+    "&output=wordcloud&outputtype=native" + "&maxrows=" + brojVestiSource;
+
+    worldCloudThemeFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=wordcloud&outputtype=theme" + "&maxrows=" + brojVestiSource;
+
+
+    timeLineFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=timeline&sort=desc" + "&maxrows=" + brojVestiSource;
+
+     artimgOnlyFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artimgonlylist" + "&maxrows=" + brojVestiSource;
+
+     urlListFrame.src = urlFirstPart + filterWord + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=urllist&sort=desc" + "&maxrows=" + brojVestiSource;
+    }
+
+else if (languageSearchSource == '' | languageSource == ''){
+
+ linkViewFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artlist&trans=googtrans" + "&maxrows=" + brojVestiSource;
+
+     imageViewFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artimgonlycollage" + "&maxrows=" + brojVestiSource;
+
+     worldCloudFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource  +
+    "&output=wordcloud&outputtype=native" + "&maxrows=" + brojVestiSource;
+
+    worldCloudThemeFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=wordcloud&outputtype=theme" + "&maxrows=" + brojVestiSource;
+
+
+    timeLineFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=timeline&sort=desc" + "&maxrows=" + brojVestiSource;
+
+     artimgOnlyFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=artimgonlylist" + "&maxrows=" + brojVestiSource;
+
+     urlListFrame.src = urlFirstPart + filterWord + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource +
+    "&output=urllist&sort=desc" + "&maxrows=" + brojVestiSource;
+
+}
+
+else {
+
+ linkViewFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=artlist&trans=googtrans" + "&maxrows=" + brojVestiSource;
+
+ imageViewFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=artimgonlycollage" + "&maxrows=" + brojVestiSource;
+
+     worldCloudFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=wordcloud&outputtype=native" + "&maxrows=" + brojVestiSource;
+
+    worldCloudThemeFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=wordcloud&outputtype=theme" + "&maxrows=" + brojVestiSource;
+
+
+    timeLineFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=timeline&sort=desc" + "&maxrows=" + brojVestiSource;
+
+     artimgOnlyFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=artimgonlylist" + "&maxrows=" + brojVestiSource;
+
+     urlListFrame.src = urlFirstPart + filterWord + " sourcelang:" + languageSource + " sourcecountry:" + countrySource + " lastminutes:" + lastMinutesSource + " sortby:" + sortSource + " searchlang:" + languageSearchSource +
+    "&output=urllist&sort=desc" + "&maxrows=" + brojVestiSource;
+}
+
+
+
+
+}
+
+ function load_js()
+   {
+   	var textBotaSot1=
+       $("#rssBotaSot1").html();
+       $("#rssBotaSot1").html(textBotaSot1);
+
+       var textBotaSot2=
+       $("#rssBotaSot2").html();
+       $("#rssBotaSot2").html(textBotaSot1);
+   }
+
+
+
+$(function(){
+	setInterval(function(){
+		refreshIframe();
+		load_js();
+	},15000);
+});
+
+
+</script>
+            </div>
+
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+    </div>
+    <script>
+$(document).ready(function () {
+
+ var trigger = $('.hamburger'),
+     overlay = $('.overlay'),
+    isClosed = false;
+
+   trigger.click(function () {
+     hamburger_cross();
+   });
+
+   function hamburger_cross() {
+
+     if (isClosed == true) {
+       overlay.hide();
+       trigger.removeClass('is-open');
+       trigger.addClass('is-closed');
+       isClosed = false;
+     } else {
+       overlay.show();
+       trigger.removeClass('is-closed');
+       trigger.addClass('is-open');
+       isClosed = true;
+     }
+ }
+
+ $('[data-toggle="offcanvas"]').click(function () {
+       $('#wrapper').toggleClass('toggled');
+ });
+});
+
+</script>
+</div>
+</body>
+</html>

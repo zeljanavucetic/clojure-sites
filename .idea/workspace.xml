@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53e497c6-8133-4f06-8b41-299382a76f29" name="Default" comment="" />
+    <ignored path="clojure-sites.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="clojure-sites" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="byCountry.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/byCountry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6001">
+              <caret line="353" column="65" selection-start-line="353" selection-start-column="65" selection-end-line="353" selection-end-column="65" />
+              <folding>
+                <marker date="1484835038733" expanded="true" signature="10168:10195" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rss.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/rss.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6222">
+              <caret line="366" column="65" selection-start-line="366" selection-start-column="65" selection-end-line="366" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1484835035373" expanded="true" signature="10944:10963" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rssFeedURL.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/rssFeedURL.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8296">
+              <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="siteURL.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/siteURL.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5916">
+              <caret line="348" column="59" selection-start-line="348" selection-start-column="59" selection-end-line="348" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/handler.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1484556910301" expanded="true" signature="0:113" ph="(ns rss.feed ...)" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongo_sites.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data/mongo_sites.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongo_rss.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/mongo_rss.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gdelt.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/gdelt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5933">
+              <caret line="349" column="59" selection-start-line="349" selection-start-column="59" selection-end-line="349" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongoDB.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/mongoDB.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/database/clj_dbsites.clj" />
+        <option value="$PROJECT_DIR$/src/input/csv_sites.clj" />
+        <option value="$PROJECT_DIR$/resources/css/general.css" />
+        <option value="$PROJECT_DIR$/resources/js/main.js" />
+        <option value="$PROJECT_DIR$/src/hiccup.html" />
+        <option value="$PROJECT_DIR$/resources/publ/main.html" />
+        <option value="$PROJECT_DIR$/src/db/novo.clj" />
+        <option value="$PROJECT_DIR$/src/rss/stat.clj" />
+        <option value="$PROJECT_DIR$/resources/zana.html" />
+        <option value="$PROJECT_DIR$/resources/urlForRss.html" />
+        <option value="$PROJECT_DIR$/resources/RssURL.html" />
+        <option value="$PROJECT_DIR$/resources/rssFeed.html" />
+        <option value="$PROJECT_DIR$/resources/jdelt.html" />
+        <option value="$PROJECT_DIR$/resources/jdeltView.html" />
+        <option value="$PROJECT_DIR$/src/db/dbsites.clj" />
+        <option value="$PROJECT_DIR$/src/start.clj" />
+        <option value="$PROJECT_DIR$/src/rss/feed.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/KiM.csv" />
+        <option value="$PROJECT_DIR$/resources/KiM.html" />
+        <option value="$PROJECT_DIR$/resources/Crna Gora.html" />
+        <option value="$PROJECT_DIR$/Crna Gora.csv" />
+        <option value="$PROJECT_DIR$/Albanija.csv" />
+        <option value="$PROJECT_DIR$/Balkan-Evropa.csv" />
+        <option value="$PROJECT_DIR$/Rumunija.csv" />
+        <option value="$PROJECT_DIR$/Madjarska.csv" />
+        <option value="$PROJECT_DIR$/Kipar.csv" />
+        <option value="$PROJECT_DIR$/Hrvatska.csv" />
+        <option value="$PROJECT_DIR$/Bugarska.csv" />
+        <option value="$PROJECT_DIR$/BiH.csv" />
+        <option value="$PROJECT_DIR$/Afrika.csv" />
+        <option value="$PROJECT_DIR$/resources/slovenija.html" />
+        <option value="$PROJECT_DIR$/slovenia.csv" />
+        <option value="$PROJECT_DIR$/src/db/work_with_csv.clj" />
+        <option value="$PROJECT_DIR$/src/data/mongoDB.clj" />
+        <option value="$PROJECT_DIR$/src/routes/templates.clj" />
+        <option value="$PROJECT_DIR$/resources/main.html" />
+        <option value="$PROJECT_DIR$/resources/byCountry.html" />
+        <option value="$PROJECT_DIR$/resources/gdelt.html" />
+        <option value="$PROJECT_DIR$/resources/rss.html" />
+        <option value="$PROJECT_DIR$/resources/siteURL.html" />
+        <option value="$PROJECT_DIR$/resources/rssFeedURL.html" />
+        <option value="$PROJECT_DIR$/src/routes/handler.clj" />
+        <option value="$PROJECT_DIR$/src/data/mongo_rss.clj" />
+        <option value="$PROJECT_DIR$/src/data/mongo_sites.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Keybindings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="cursive.last.file.extension.D\:/Zana/clojure/clojure-sites/src" value="clj" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites\resources\css" />
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites\resources\js" />
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites\resources" />
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites\resources\publ" />
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="clojure_sites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\clojure-sites\resources" />
+      <recent name="C:\clojure-sites\resources" />
+      <recent name="G:\clojure-sites\resources" />
+      <recent name="C:\Users\Zana\Desktop\master\vucetic_clojure\clojure-sites\resources" />
+      <recent name="D:\Zana\clojure\clojure-sites\resources\js" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1484917193935">{:repl-history {:ide [], :local [&quot;(ns data.mongoDB\n  (:require\n     [somnium.congomongo :as mongo]\n     [db.work-with-csv :as csv]))\n\n\n(def conn\n  (mongo/make-connection \&quot;sites-clojure\&quot;\n                         :host \&quot;192.168.0.17\&quot;\n                         :port 27017))\n\n;set the connection globally\n(mongo/set-connection! conn)\n(mongo/set-write-concern conn :strict)\n\n(defn insert-data-into-DBcollection [collection func &amp; args]\n  \&quot;Insert data from csv files into some collection\&quot;\n  (mongo/mass-insert!\n    collection\n    (apply func args)))\n&quot; &quot;(insert-data-into-DBcollection :sites csv/read-data \&quot;webSites.csv\&quot;)&quot; &quot;(ns routes.handler\n  (:use (compojure handler\n                   [core :only (GET POST ANY defroutes) :as compojure]))\n  (:require\n    [ring.adapter.jetty :only [run-jetty]]\n    [net.cgrand.enlive-html :as html]\n    [compojure.handler :as handler]\n    [compojure.route :as route]\n    [ring.middleware.session :as session]\n    [routes.templates :as templates]\n    [data.mongo-sites :as sites]\n    [rss.feed :as feed]\n    [rss.data :as data]\n    [db.work-with-csv :as csv]\n    [data.mongo-rss :as rss]\n    [clojure.string :as string]\n    [somnium.congomongo :as mongo]))\n\n(def conn\n  (mongo/make-connection \&quot;sites-clojure\&quot;\n                         :host \&quot;127.0.0.1\&quot;\n                         :port 27017))\n\n;set the connection globally\n(mongo/set-connection! conn)\n(mongo/set-write-concern conn :strict)\n\n\n(defn get-parametar [request param]\n  \&quot;Get certain parametar from post request\&quot;\n  (get (:params request) param))\n\n(defn make-url-for-rss [country lan word]\n  (str \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;ned=\&quot; (string/trim country) \&quot;&amp;hl=\&quot; (string/trim lan) \&quot;&amp;q=\&quot;\n       (string/trim word) \&quot;&amp;output=rss\&quot;))\n\n;\n;(def rss (feed/add-new-key-to-maps :day\n;                              (feed/add-new-key-to-maps :month\n;                                                   (feed/add-new-key-to-maps :year\n;                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                             (feed/to-list-of-feed-maps mapa) (feed/to-list-of-pubdates datum))\n;                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                   (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                              (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))\n;\n;\n;(map :day (feed/to-list-parts-of-date :day datum feed/get-day-from-date))\n;(def zana (reverse (group-by :year (reverse (sort-by :day (feed/add-new-key-to-maps :day\n;                                                                                    (feed/add-new-key-to-maps :month\n;                                                                                                              (feed/add-new-key-to-maps :year\n;                                                                                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                                                                                                  (feed/to-list-of-feed-maps  (map :description  (flatten (map :items (flatten (data/parse-rss\n;                                                                                                                                                                                                                                                 (feed/get-feed\n;                                                                                                                                                                                                                                                   \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;q=Tomislav+Nikolic&amp;output=rss\&quot;))))))) (feed/to-list-of-pubdates datum))\n;                                                                                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                                                                              (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                                                                                    (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))))))\n\n\n; prosledi f-ji reverse (sort-by :day (sort-by :month (reverse (sort-by :year rss))))\n\n(defroutes app-routes\n           (GET \&quot;/\&quot; [] (html/emit* (templates/show-main \&quot;main.html\&quot; (into []\n                                                                          (take 10 (reverse (sort-by :Rank (sites/get-sites))))))))\n\n           (GET \&quot;/slovenija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sites/get-sites-only-for-specific-country \&quot;slovenia\&quot;)) \&quot;slovenia\&quot;)))\n\n           (GET \&quot;/Albanija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Albanija\&quot;))) \&quot;Albanija\&quot;)))\n\n           (GET \&quot;/Balkan-Evropa\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                   (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Balkan-Evropa\&quot;))) \&quot;Balkan-Evropa\&quot;)))\n\n           (GET \&quot;/BiH\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;BiH\&quot;))) \&quot;BiH\&quot;)))\n\n           (GET \&quot;/Bugarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bugarska\&quot;))) \&quot;Bugarska\&quot;)))\n\n           (GET \&quot;/CrnaGora\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Crna Gora\&quot;))) \&quot;Crna Gora\&quot;)))\n\n           (GET \&quot;/Hrvatska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Hrvatska\&quot;))) \&quot;Hrvatska\&quot;)))\n\n           (GET \&quot;/Madjarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Madjarska\&quot;))) \&quot;Madjarska\&quot;)))\n\n           (GET \&quot;/Makedonija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Makedonija\&quot;))) \&quot;Makedonija\&quot;)))\n\n           (GET \&quot;/Mirovneoperacije\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                      (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Mirovne operacije\&quot;))) \&quot;Mirovne operacije\&quot;)))\n\n           (GET \&quot;/KiM\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Kosovo i Metohija\&quot;))) \&quot;Kosovo i Metohija\&quot;)))\n\n           (GET \&quot;/Ukrajina\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ukrajina\&quot;))) \&quot;Ukrajina\&quot;)))\n\n\n           (GET \&quot;/Ostalo\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                            (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ostalo\&quot;))) \&quot;Ostalo\&quot;)))\n\n           (GET \&quot;/Rumunija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Rumunija\&quot;))) \&quot;Rumunija\&quot;)))\n\n           (GET \&quot;/Bliskiistok\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                 (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bliski istok\&quot;))) \&quot;Bliski istok\&quot;)))\n\n           (GET \&quot;/rss:req\&quot; [req] (html/emit* (templates/show-rss\n                                               (into [] (mongo/fetch :rss :only {:_id false\n                                                                                 :display_name true\n                                                                                 :name true}))\n                                               (feed/my-rss-map req)\n                                               (rss/get-rssFeedURL req) req)))\n\n           (GET \&quot;/addRss\&quot; [] (html/emit* (templates/show-get-url-for-rss\n                                           (into []\n                                                 (mongo/fetch :languages :only {:_id false\n                                                                                :Value true\n                                                                                :Headlinelink true})))))\n\n           (GET \&quot;/addUrl\&quot; [] (html/emit* (templates/show-add-new-site\n                                           (sites/get-distinct-values :Country))))\n\n           (GET \&quot;/gdelt\&quot; [] (html/emit* (templates/show-gelt-news\n                                          (into []\n                                                (mongo/fetch :countries :only {:_id false\n                                                                               :Countrylink true}))\n                                          (into []\n                                                (mongo/fetch :languages :only {:_id false\n                                                                               :Headlinelink true})))))\n\n           (POST \&quot;/deleteSite\&quot; request\n             ;(def provera (:params request))\n             (let [link (get (:params request) :link)]\n               (sites/delete-site link)))\n\n           (POST \&quot;/increaseRank\&quot; request\n             (let [link (get (:params request) :link)] (sites/increase-rank link))\n             ;(def provera (:params request))\n             )\n\n           (POST \&quot;/updateSite\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)]\n               (sites/update-site desclink description rank)))\n\n           (POST \&quot;/addRss\&quot; request\n             (rss/add-new-rssFeedURL\n               (make-url-for-rss (get-parametar request :country)\n                                 (get-parametar request :language)\n                                 (get-parametar request :word))\n               (str (get-parametar request :word) \&quot; - lang: \&quot; (get-parametar request :language)) (str (get-parametar request :word))))\n\n           (POST \&quot;/addUrl\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)\n                   country (get (:params request) :country)]\n               (sites/add-site desclink description rank country)))\n\n           (POST \&quot;/zana\&quot; request\n             (def f (:form-params request)))\n\n\n           (route/resources \&quot;/\&quot;)\n           (route/not-found \&quot;&lt;h1&gt;Page not found&lt;/h1&gt;\&quot;))\n\n\n\n\n\n(def app\n  (-&gt; (handler/site app-routes)\n      (session/wrap-session)))\n\n(defn start-server []\n  (ring.adapter.jetty/run-jetty #'app {:port 9000 :join? false}))\n\n\n&quot; &quot;(ns routes.handler\n  (:use (compojure handler\n                   [core :only (GET POST ANY defroutes) :as compojure]))\n  (:require\n    [ring.adapter.jetty :only [run-jetty]]\n    [net.cgrand.enlive-html :as html]\n    [compojure.handler :as handler]\n    [compojure.route :as route]\n    [ring.middleware.session :as session]\n    [routes.templates :as templates]\n    [data.mongo-sites :as sites]\n    [rss.feed :as feed]\n    [rss.data :as data]\n    [db.work-with-csv :as csv]\n    [data.mongo-rss :as rss]\n    [clojure.string :as string]\n    [somnium.congomongo :as mongo]))&quot; &quot;(ns data.mongo-rss\n  (:require\n    [somnium.congomongo :as mongo]\n    [ring.util.response :as resp]))\n\n\n(defn rssFeedURL-exists? [url]\n  \&quot;Check if rss feed url exists.\&quot;\n  (if (not= 0 (count\n                (filter not-empty\n                        (mongo/fetch :rss :only {:_id false} :where {:url url})))) true false))\n\n\n\n(defn add-new-rssFeedURL [link display-name name]\n  \&quot;If the url doesn't exist in the collection :rss, insert the url.\&quot;\n  (if-not (rssFeedURL-exists? link)\n    (do\n      (mongo/insert! :rss {:url link\n                           :display_name display-name\n                           :name name})\n      (resp/response \&quot;Creation succeeded!\&quot;))\n    (resp/response \&quot;Rss feed url exists!\&quot;)))\n\n(add-new-rssFeedURL \&quot;b cjscb\&quot; \&quot;display\&quot; \&quot;name\&quot;)\n\n(defn get-rssFeedURL [name]\n  \&quot;Get rss feed url from database with certain display_name-key\&quot;\n  (mongo/fetch-one :rss :only {:_id false\n                               :url true\n                               :display_name true\n                               :name true} :where {:display_name name}))\n&quot; &quot;(ns routes.handler\n  (:use (compojure handler\n                   [core :only (GET POST ANY defroutes) :as compojure]))\n  (:require\n    [ring.adapter.jetty :only [run-jetty]]\n    [net.cgrand.enlive-html :as html]\n    [compojure.handler :as handler]\n    [compojure.route :as route]\n    [ring.middleware.session :as session]\n    [routes.templates :as templates]\n    [data.mongo-sites :as sites]\n    [rss.feed :as feed]\n    [rss.data :as data]\n    [db.work-with-csv :as csv]\n    [data.mongo-rss :as rss]\n    [clojure.string :as string]\n    [somnium.congomongo :as mongo]))\n\n(def conn\n  (mongo/make-connection \&quot;sites-clojure\&quot;\n                         :host \&quot;192.168.0.17\&quot;\n                         :port 27017))\n\n;set the connection globally\n(mongo/set-connection! conn)\n(mongo/set-write-concern conn :strict)\n\n\n(defn get-parametar [request param]\n  \&quot;Get certain parametar from post request\&quot;\n  (get (:params request) param))\n\n(defn make-url-for-rss [country lan word]\n  (str \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;ned=\&quot; (string/trim country) \&quot;&amp;hl=\&quot; (string/trim lan) \&quot;&amp;q=\&quot;\n       (string/trim word) \&quot;&amp;output=rss\&quot;))\n\n;\n;(def rss (feed/add-new-key-to-maps :day\n;                              (feed/add-new-key-to-maps :month\n;                                                   (feed/add-new-key-to-maps :year\n;                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                             (feed/to-list-of-feed-maps mapa) (feed/to-list-of-pubdates datum))\n;                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                   (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                              (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))\n;\n;\n;(map :day (feed/to-list-parts-of-date :day datum feed/get-day-from-date))\n;(def zana (reverse (group-by :year (reverse (sort-by :day (feed/add-new-key-to-maps :day\n;                                                                                    (feed/add-new-key-to-maps :month\n;                                                                                                              (feed/add-new-key-to-maps :year\n;                                                                                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                                                                                                  (feed/to-list-of-feed-maps  (map :description  (flatten (map :items (flatten (data/parse-rss\n;                                                                                                                                                                                                                                                 (feed/get-feed\n;                                                                                                                                                                                                                                                   \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;q=Tomislav+Nikolic&amp;output=rss\&quot;))))))) (feed/to-list-of-pubdates datum))\n;                                                                                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                                                                              (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                                                                                    (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))))))\n\n\n; prosledi f-ji reverse (sort-by :day (sort-by :month (reverse (sort-by :year rss))))\n\n(defroutes app-routes\n           (GET \&quot;/\&quot; [] (html/emit* (templates/show-main \&quot;main.html\&quot; (into []\n                                                                          (take 10 (reverse (sort-by :Rank (sites/get-sites))))))))\n\n           (GET \&quot;/slovenija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sites/get-sites-only-for-specific-country \&quot;slovenia\&quot;)) \&quot;slovenia\&quot;)))\n\n           (GET \&quot;/Albanija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Albanija\&quot;))) \&quot;Albanija\&quot;)))\n\n           (GET \&quot;/Balkan-Evropa\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                   (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Balkan-Evropa\&quot;))) \&quot;Balkan-Evropa\&quot;)))\n\n           (GET \&quot;/BiH\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;BiH\&quot;))) \&quot;BiH\&quot;)))\n\n           (GET \&quot;/Bugarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bugarska\&quot;))) \&quot;Bugarska\&quot;)))\n\n           (GET \&quot;/CrnaGora\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Crna Gora\&quot;))) \&quot;Crna Gora\&quot;)))\n\n           (GET \&quot;/Hrvatska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Hrvatska\&quot;))) \&quot;Hrvatska\&quot;)))\n\n           (GET \&quot;/Madjarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Madjarska\&quot;))) \&quot;Madjarska\&quot;)))\n\n           (GET \&quot;/Makedonija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Makedonija\&quot;))) \&quot;Makedonija\&quot;)))\n\n           (GET \&quot;/Mirovneoperacije\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                      (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Mirovne operacije\&quot;))) \&quot;Mirovne operacije\&quot;)))\n\n           (GET \&quot;/KiM\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Kosovo i Metohija\&quot;))) \&quot;Kosovo i Metohija\&quot;)))\n\n           (GET \&quot;/Ukrajina\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ukrajina\&quot;))) \&quot;Ukrajina\&quot;)))\n\n\n           (GET \&quot;/Ostalo\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                            (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ostalo\&quot;))) \&quot;Ostalo\&quot;)))\n\n           (GET \&quot;/Rumunija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Rumunija\&quot;))) \&quot;Rumunija\&quot;)))\n\n           (GET \&quot;/Bliskiistok\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                 (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bliski istok\&quot;))) \&quot;Bliski istok\&quot;)))\n\n           (GET \&quot;/rss:req\&quot; [req] (html/emit* (templates/show-rss\n                                               (into [] (mongo/fetch :rss :only {:_id false\n                                                                                 :display_name true\n                                                                                 :name true}))\n                                               (feed/my-rss-map req)\n                                               (rss/get-rssFeedURL req) req)))\n\n           (GET \&quot;/addRss\&quot; [] (html/emit* (templates/show-get-url-for-rss\n                                           (into []\n                                                 (mongo/fetch :languages :only {:_id false\n                                                                                :Value true\n                                                                                :Headlinelink true})))))\n\n           (GET \&quot;/addUrl\&quot; [] (html/emit* (templates/show-add-new-site\n                                           (sites/get-distinct-values :Country))))\n\n           (GET \&quot;/gdelt\&quot; [] (html/emit* (templates/show-gelt-news\n                                          (into []\n                                                (mongo/fetch :countries :only {:_id false\n                                                                               :Countrylink true}))\n                                          (into []\n                                                (mongo/fetch :languages :only {:_id false\n                                                                               :Headlinelink true})))))\n\n           (POST \&quot;/deleteSite\&quot; request\n             ;(def provera (:params request))\n             (let [link (get (:params request) :link)]\n               (sites/delete-site link)))\n\n           (POST \&quot;/increaseRank\&quot; request\n             (let [link (get (:params request) :link)] (sites/increase-rank link))\n             ;(def provera (:params request))\n             )\n\n           (POST \&quot;/updateSite\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)]\n               (sites/update-site desclink description rank)))\n\n           (POST \&quot;/addRss\&quot; request\n             (rss/add-new-rssFeedURL\n               (make-url-for-rss (get-parametar request :country)\n                                 (get-parametar request :language)\n                                 (get-parametar request :word))\n               (str (get-parametar request :word) \&quot; - lang: \&quot; (get-parametar request :language)) (str (get-parametar request :word))))\n\n           (POST \&quot;/addUrl\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)\n                   country (get (:params request) :country)]\n               (sites/add-site desclink description rank country)))\n\n           (POST \&quot;/zana\&quot; request\n             (def f (:form-params request)))\n\n\n           (route/resources \&quot;/\&quot;)\n           (route/not-found \&quot;&lt;h1&gt;Page not found&lt;/h1&gt;\&quot;))\n\n\n\n\n\n(def app\n  (-&gt; (handler/site app-routes)\n      (session/wrap-session)))\n\n(defn start-server []\n  (ring.adapter.jetty/run-jetty #'app {:port 9000 :join? false}))\n\n\n&quot; &quot;(ring.adapter.jetty/run-jetty #'app {:port 9000 :join? false})&quot; &quot;(ns routes.handler\n  (:use (compojure handler\n                   [core :only (GET POST ANY defroutes) :as compojure]))\n  (:require\n    [ring.adapter.jetty :only [run-jetty]]\n    [net.cgrand.enlive-html :as html]\n    [compojure.handler :as handler]\n    [compojure.route :as route]\n    [ring.middleware.session :as session]\n    [routes.templates :as templates]\n    [data.mongo-sites :as sites]\n    [rss.feed :as feed]\n    [rss.data :as data]\n    [db.work-with-csv :as csv]\n    [data.mongo-rss :as rss]\n    [clojure.string :as string]\n    [somnium.congomongo :as mongo]))\n\n(def conn\n  (mongo/make-connection \&quot;sites-clojure\&quot;\n                         :host \&quot;192.168.0.17\&quot;\n                         :port 27017))\n\n;set the connection globally\n(mongo/set-connection! conn)\n(mongo/set-write-concern conn :strict)\n\n\n(defn get-parametar [request param]\n  \&quot;Get certain parametar from post request\&quot;\n  (get (:params request) param))\n\n(defn make-url-for-rss [country lan word]\n  (str \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;ned=\&quot; (string/trim country) \&quot;&amp;hl=\&quot; (string/trim lan) \&quot;&amp;q=\&quot;\n       (string/trim word) \&quot;&amp;output=rss\&quot;))\n\n;\n;(def rss (feed/add-new-key-to-maps :day\n;                              (feed/add-new-key-to-maps :month\n;                                                   (feed/add-new-key-to-maps :year\n;                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                             (feed/to-list-of-feed-maps mapa) (feed/to-list-of-pubdates datum))\n;                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                   (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                              (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))\n;\n;\n;(map :day (feed/to-list-parts-of-date :day datum feed/get-day-from-date))\n;(def zana (reverse (group-by :year (reverse (sort-by :day (feed/add-new-key-to-maps :day\n;                                                                                    (feed/add-new-key-to-maps :month\n;                                                                                                              (feed/add-new-key-to-maps :year\n;                                                                                                                                        (feed/add-new-key-to-maps :pubdate\n;                                                                                                                                                                  (feed/to-list-of-feed-maps  (map :description  (flatten (map :items (flatten (data/parse-rss\n;                                                                                                                                                                                                                                                 (feed/get-feed\n;                                                                                                                                                                                                                                                   \&quot;https://news.google.de/news/feeds?pz=1&amp;cf=all&amp;q=Tomislav+Nikolic&amp;output=rss\&quot;))))))) (feed/to-list-of-pubdates datum))\n;                                                                                                                                        (feed/to-list-parts-of-date :year datum feed/get-year-from-date))\n;                                                                                                              (feed/to-list-parts-of-date :month datum feed/get-month-from-date))\n;                                                                                    (feed/to-list-parts-of-date :day datum feed/get-day-from-date)))))))\n\n\n; prosledi f-ji reverse (sort-by :day (sort-by :month (reverse (sort-by :year rss))))\n\n(defroutes app-routes\n           (GET \&quot;/\&quot; [] (html/emit* (templates/show-main \&quot;main.html\&quot; (into []\n                                                                          (take 10 (reverse (sort-by :Rank (sites/get-sites))))))))\n\n           (GET \&quot;/slovenija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sites/get-sites-only-for-specific-country \&quot;slovenia\&quot;)) \&quot;slovenia\&quot;)))\n\n           (GET \&quot;/Albanija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Albanija\&quot;))) \&quot;Albanija\&quot;)))\n\n           (GET \&quot;/Balkan-Evropa\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                   (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Balkan-Evropa\&quot;))) \&quot;Balkan-Evropa\&quot;)))\n\n           (GET \&quot;/BiH\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;BiH\&quot;))) \&quot;BiH\&quot;)))\n\n           (GET \&quot;/Bugarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bugarska\&quot;))) \&quot;Bugarska\&quot;)))\n\n           (GET \&quot;/CrnaGora\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Crna Gora\&quot;))) \&quot;Crna Gora\&quot;)))\n\n           (GET \&quot;/Hrvatska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Hrvatska\&quot;))) \&quot;Hrvatska\&quot;)))\n\n           (GET \&quot;/Madjarska\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                               (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Madjarska\&quot;))) \&quot;Madjarska\&quot;)))\n\n           (GET \&quot;/Makedonija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Makedonija\&quot;))) \&quot;Makedonija\&quot;)))\n\n           (GET \&quot;/Mirovneoperacije\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                      (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Mirovne operacije\&quot;))) \&quot;Mirovne operacije\&quot;)))\n\n           (GET \&quot;/KiM\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                         (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Kosovo i Metohija\&quot;))) \&quot;Kosovo i Metohija\&quot;)))\n\n           (GET \&quot;/Ukrajina\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ukrajina\&quot;))) \&quot;Ukrajina\&quot;)))\n\n\n           (GET \&quot;/Ostalo\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                            (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Ostalo\&quot;))) \&quot;Ostalo\&quot;)))\n\n           (GET \&quot;/Rumunija\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                              (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Rumunija\&quot;))) \&quot;Rumunija\&quot;)))\n\n           (GET \&quot;/Bliskiistok\&quot; [] (html/emit* (templates/show-country-page (into []\n                                                                                 (sort-by :Desclink (sites/get-sites-only-for-specific-country \&quot;Bliski istok\&quot;))) \&quot;Bliski istok\&quot;)))\n\n           (GET \&quot;/rss:req\&quot; [req] (html/emit* (templates/show-rss\n                                               (into [] (mongo/fetch :rss :only {:_id false\n                                                                                 :display_name true\n                                                                                 :name true}))\n                                               (feed/my-rss-map req)\n                                               (rss/get-rssFeedURL req) req)))\n\n           (GET \&quot;/addRss\&quot; [] (html/emit* (templates/show-get-url-for-rss\n                                           (into []\n                                                 (mongo/fetch :languages :only {:_id false\n                                                                                :Value true\n                                                                                :Headlinelink true})))))\n\n           (GET \&quot;/addUrl\&quot; [] (html/emit* (templates/show-add-new-site\n                                           (sites/get-distinct-values :Country))))\n\n           (GET \&quot;/gdelt\&quot; [] (html/emit* (templates/show-gelt-news\n                                          (into []\n                                                (mongo/fetch :countries :only {:_id false\n                                                                               :Countrylink true}))\n                                          (into []\n                                                (mongo/fetch :languages :only {:_id false\n                                                                               :Headlinelink true})))))\n\n           (POST \&quot;/deleteSite\&quot; request\n             ;(def provera (:params request))\n             (let [link (get (:params request) :link)]\n               (sites/delete-site link)))\n\n           (POST \&quot;/increaseRank\&quot; request\n             (let [link (get (:params request) :link)] (sites/increase-rank link))\n             ;(def provera (:params request))\n             )\n\n           (POST \&quot;/updateSite\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)]\n               (sites/update-site desclink description rank)))\n\n           (POST \&quot;/addRss\&quot; request\n             (rss/add-new-rssFeedURL\n               (make-url-for-rss (get-parametar request :country)\n                                 (get-parametar request :language)\n                                 (get-parametar request :word))\n               (str (get-parametar request :word) \&quot; - lang: \&quot; (get-parametar request :language)) (str (get-parametar request :word))))\n\n           (POST \&quot;/addUrl\&quot; request\n             (let [desclink (get (:params request) :desclink)\n                   description (get (:params request) :description)\n                   rank (get (:params request) :rank)\n                   country (get (:params request) :country)]\n               (sites/add-site desclink description rank country)))\n\n           (POST \&quot;/zana\&quot; request\n             (def f (:form-params request)))\n\n\n           (route/resources \&quot;/\&quot;)\n           (route/not-found \&quot;&lt;h1&gt;Page not found&lt;/h1&gt;\&quot;))\n\n\n\n\n\n(def app\n  (-&gt; (handler/site app-routes)\n      (session/wrap-session)))\n\n(defn start-server []\n  (ring.adapter.jetty/run-jetty #'app {:port 9005 :join? false}))\n\n\n&quot; &quot;(ring.adapter.jetty/run-jetty #'app {:port 9005 :join? false})&quot;], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.REPL for clojure-sites">
+    <configuration default="false" name="REPL for clojure-sites" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="clojure-sites" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="handler" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-sites" />
+      <setting name="path" value="$PROJECT_DIR$/src/routes/handler.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/routes" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="clojure-sites" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-sites" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Application.handler" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clojure-sites" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.handler" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53e497c6-8133-4f06-8b41-299382a76f29" name="Default" comment="" />
+      <created>1482076097460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482076097460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.4942717" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21527778" sideWeight="0.7521222" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.24787776" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14447807" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.4942717" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3067885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/database.clj" />
+    <entry file="file://$PROJECT_DIR$/resources/zana.html" />
+    <entry file="file://$PROJECT_DIR$/resources/country-sites.html" />
+    <entry file="file://$PROJECT_DIR$/resources/urlForRss.html" />
+    <entry file="file://$PROJECT_DIR$/resources/RssURL.html" />
+    <entry file="file://$PROJECT_DIR$/resources/jquery-3.1.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/resources/jdelt.html" />
+    <entry file="file://$PROJECT_DIR$/resources/jdeltView.html" />
+    <entry file="file://$PROJECT_DIR$/resources/rssFeed.html" />
+    <entry file="file://$PROJECT_DIR$/src/db/novo.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rss/data.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/dbsites.clj" />
+    <entry file="file://$PROJECT_DIR$/src/rss/stat.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.csv" />
+    <entry file="file://$PROJECT_DIR$/resources/KiM.html" />
+    <entry file="file://$PROJECT_DIR$/resources/Crna Gora.html" />
+    <entry file="file://$PROJECT_DIR$/Rumunija.csv" />
+    <entry file="file://$PROJECT_DIR$/Ostalo.csv" />
+    <entry file="file://$PROJECT_DIR$/Mirovne operacije.csv" />
+    <entry file="file://$PROJECT_DIR$/Makedonija.csv" />
+    <entry file="file://$PROJECT_DIR$/Madjarska.csv" />
+    <entry file="file://$PROJECT_DIR$/Kipar.csv" />
+    <entry file="file://$PROJECT_DIR$/KiM.csv" />
+    <entry file="file://$PROJECT_DIR$/Hrvatska.csv" />
+    <entry file="file://$PROJECT_DIR$/Crna Gora.csv" />
+    <entry file="file://$PROJECT_DIR$/Bugarska.csv" />
+    <entry file="file://$PROJECT_DIR$/Bliski istok.csv" />
+    <entry file="file://$PROJECT_DIR$/BiH.csv" />
+    <entry file="file://$PROJECT_DIR$/Balkan-Evropa.csv" />
+    <entry file="file://$PROJECT_DIR$/Albanija.csv" />
+    <entry file="file://$PROJECT_DIR$/Afrika.csv" />
+    <entry file="file://$PROJECT_DIR$/resources/slovenija.html" />
+    <entry file="file://$PROJECT_DIR$/slovenia.csv" />
+    <entry file="file://$PROJECT_DIR$/src/db/work_with_csv.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSites.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/templates.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5899">
+          <caret line="347" column="9" selection-start-line="347" selection-start-column="9" selection-end-line="347" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/byCountry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6001">
+          <caret line="353" column="65" selection-start-line="353" selection-start-column="65" selection-end-line="353" selection-end-column="65" />
+          <folding>
+            <marker date="1484835038733" expanded="true" signature="10168:10195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/gdelt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5933">
+          <caret line="349" column="59" selection-start-line="349" selection-start-column="59" selection-end-line="349" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/siteURL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5916">
+          <caret line="348" column="59" selection-start-line="348" selection-start-column="59" selection-end-line="348" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/rss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6222">
+          <caret line="366" column="65" selection-start-line="366" selection-start-column="65" selection-end-line="366" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1484835035373" expanded="true" signature="10944:10963" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/rssFeedURL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8296">
+          <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/mongoDB.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1484556910301" expanded="true" signature="0:113" ph="(ns rss.feed ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/mongo_rss.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/mongo_sites.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>IDE SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>clojure-sites</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: args4j:2.0.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
