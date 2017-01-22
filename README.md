@@ -9,6 +9,19 @@ To initialize the database with the data you need to set :main to data.mongoDB i
 
 ## License
 
+## References
+
+- Mongo database https://docs.mongodb.org/manual/
+- https://github.com/clojure/data.csv
+- https://github.com/aboekhoff/congomongo
+- Sidebar navigation (main form) http://bootsnipp.com/snippets/featured/fancy-sidebar-navigation
+- HTML pages https://github.com/cgrand/enlive
+- https://github.com/ring-clojure/ring
+- https://github.com/weavejester/compojure
+- Part of processing RSS feeds  http://blog.kartikshah.com/2011/01/using-clojure-to-work-with-rss-feeds.html
+
+
+
 Copyright © 2016 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
