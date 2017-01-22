@@ -30,7 +30,7 @@
       )
     (insert-data-into-DBcollection :countries csv/read-data "countries.csv")
     (insert-data-into-DBcollection :languages csv/read-data "languages.csv")
-    (println "Initialization done!")))
+    (println "Done!")))
 
 
 (defn -main [& args]
