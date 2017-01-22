@@ -7,7 +7,7 @@
 
 (def conn
   (mongo/make-connection "sites-clojure"
-                         :host "127.0.0.17"
+                         :host "127.0.0.1"
                          :port 27017))
 
 ;set the connection globally
